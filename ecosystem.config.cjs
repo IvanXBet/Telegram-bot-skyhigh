@@ -3,7 +3,7 @@ module.exports = {
 		{
 			name: 'telegram-bot-skyhigh',
 			script: './index.js',
-			node_args: '--experimental-modules', // добавим эту опцию
+			interpreter: '/usr/bin/node', // Укажите путь к вашей установленной версии Node.js
 			env: {
 				NODE_ENV: 'development',
 			},
