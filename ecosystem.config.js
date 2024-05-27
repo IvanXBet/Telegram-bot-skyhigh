@@ -1,15 +1,15 @@
 module.exports = {
-  apps: [
-    {
-      name: 'telegram-bot-skyhigh',
-      script: './index.js',
-      env: {
-        NODE_ENV: 'development',
-      },
-      env_production: {
-        NODE_ENV: 'production',
-      },
-    },
-  ],
-};
-
+	apps: [
+		{
+			name: 'telegram-bot-skyhigh',
+			script: './index.js',
+			node_args: '--experimental-modules', // Добавьте эту опцию
+			env: {
+				NODE_ENV: 'development',
+			},
+			env_production: {
+				NODE_ENV: 'production',
+			},
+		},
+	],
+}
