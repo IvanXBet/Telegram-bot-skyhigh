@@ -1,5 +1,5 @@
 import TelegramBot from 'node-telegram-bot-api'
-import { checkStreamStatus } from './twitch-api/twitch-api.js'
+import { checkStreamStatus } from './twitch-api/wtitch-api.js'
 import 'dotenv/config.js'
 
 
