@@ -1,15 +1,13 @@
-module.exports = {
-	apps: [
-		{
-			name: 'telegram-bot-skyhigh',
-			script: './index.js',
-			node_args: '--experimental-modules', // Добавьте эту опцию
-			env: {
-				NODE_ENV: 'development',
-			},
-			env_production: {
-				NODE_ENV: 'production',
-			},
+export const apps = [
+	{
+		name: 'telegram-bot-skyhigh',
+		script: './index.js',
+		node_args: '--experimental-modules', // Убедитесь, что этот флаг установлен
+		env: {
+			NODE_ENV: 'development',
 		},
-	],
-}
+		env_production: {
+			NODE_ENV: 'production',
+		},
+	},
+]
