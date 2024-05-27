@@ -29,7 +29,7 @@ export async function messageListener() {
 				case '/info':
 					return await bot.sendMessage(
 						chatID,
-						`Этого бота я создал в образовательных целях.\nУ него много функций, одна из них это уведомлять о начале моих стримво.\nСтримы тут: <a href='https://www.twitch.tv/skyhightm'>Ссылка на мой Twitch канал</a>\nВсе функции можно посмотреть в кнопке меню`,
+						`Этого бота я создал в образовательных целях.\nУ него много функций, одна из них это уведомлять о начале моих стримов.\nСтримы тут: <a href='https://www.twitch.tv/skyhightm'>Ссылка на мой Twitch канал</a>`,
 						{
 							parse_mode: 'HTML',
 							disable_web_page_preview: true,
